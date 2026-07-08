@@ -60,7 +60,7 @@ A few things stood out once the models were trained. Plus/minus differential is 
 ```bash
 git clone https://github.com/rustin-khaz/nba-game-predictor.git
 cd nba-game-predictor
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost nba_api jupyter
+pip install -r requirements.txt
 jupyter notebook
 ```
 
