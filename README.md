@@ -10,7 +10,9 @@ I built this to predict NBA game winners from each team's recent form heading in
 | **Random Forest** | **65.8%** | **0.702** |
 | XGBoost | 62.6% | 0.668 |
 
-Vegas oddsmakers sit around 67-68% on these same games. Getting to 65.8% out of a pipeline built entirely from scratch feels like a real result.
+Vegas closing lines pick about 67-68% of winners on these games, so the best model lands within about two points of the market using box-score history alone.
+
+![ROC Curves](visuals/roc_curves.png)
 
 ## Project Structure
 
@@ -42,9 +44,6 @@ A few things stood out once the models were trained. Plus/minus differential is 
 
 ### Team Win Percentage - 2024-25 Season
 ![Win Percentage](visuals/win_percentage.png)
-
-### ROC Curves
-![ROC Curves](visuals/roc_curves.png)
 
 ### Feature Importance
 ![Feature Importance](visuals/feature_importance.png)
